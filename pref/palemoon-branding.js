@@ -6,11 +6,7 @@
 pref("startup.homepage_override_url","https://dbsoft.org/whitestar-releasenotes.php");
 pref("app.releaseNotesURL", "https://dbsoft.org/whitestar-releasenotes.php");
 
-// Enable Firefox compatmode by default.
-pref("general.useragent.compatMode", 2);
-pref("general.useragent.compatMode.gecko", true);
-pref("general.useragent.compatMode.firefox", true);
-pref("general.useragent.compatMode.version", "102.0");
+// Firefox compatmode is set in shared prefs.
 
 // Enable dynamic UA updates
 pref("general.useragent.updates.enabled", true);
